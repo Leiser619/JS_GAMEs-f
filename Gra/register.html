@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <div class="container">
+        <div class="container_item_1">
+            <div id="gora">
+                <div id="avatar"><img src="avatar_background.jpg" width="490px" height="560px"></div>
+                <form action="register_me.php" method="post">
+                    <select id="hero" name="hero"  onchange="imageChange()">
+                        <option disabled="true">Choose your hero!</option>
+                        <option value="warrior">Warrior</option>
+                        <option value="mage">Mage</option>
+                        <option value="tank">Tank</option>
+                        <option value="giant">Giant</option>
+                        <option value="archer">Archer</option>
+                        <option value="palladin">Palladin</option>
+                        <option value="magic_elf">Magic Elf</option>
+                        <option value="assassin">Assassin</option>
+                        <option value="gambler">Gambler</option>
+                        <option value="demon">Demon</option>
+                        <option value="angel">Angel</option>
+                        <option value="inventor">Inventor</option>
+
+                    </select>
+                
+
+
+                </select>
+            </div>
+            
+            <div id="dol">
+                
+                    <input type="textarea" name="login" id="login" placeholder="login"><br>
+                    <input type="password" name="password" id="password" placeholder="password"><br>
+                    <input type="submit" id="register_button" value="Register me!"></input><br>
+
+                </form>
+                <form action="logowanie.html">
+                    <input type="submit" id="register_button" value="Log me!"></input>
+                </form>
+
+            </div>
+            
+
+
+        </div>
+
+ 
+
+    </div>
+    <script src="app.js" charset="utf-8"></script>
+</body>
+</html>
