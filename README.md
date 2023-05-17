@@ -14,6 +14,7 @@
 - Simple web game
 - You can fight with few monster, get gold and EXPm you can visit few places
 - I was learning js and i tried to make it fun
+- Images are not my property
 
 ## Technologies Used
 - Html 5
